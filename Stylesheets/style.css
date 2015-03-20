@@ -14,21 +14,52 @@ a {
 .navmenu {
   font-family: Helvetica;
   font-size: 13px;
+  color: #404040;
 
   position: absolute;
-  right: 30px;
-  top: 10px;
+  right: 20px;
+  top: 0;
 }
 
 .navmenu li {
-  padding-left: 15px;
-  display: inline;
+  padding-left: 14px;
 }
 
-.navmenu img {
-  padding: 0 15px 0 15px;
+#selfie {
+  opacity: 1;
   position: relative;
-  top: 4px;
+  top: 12px;
+}
+
+#navicon {
+  position: relative;
+  top: 2px;
+}
+
+#navicon img:hover {
+  opacity: 1;
+}
+
+ul {
+  position: relative;
+  right:12px;
+}
+
+ul, li, #navicon{
+	display: inline;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+
+.navmenu img {
+  opacity: 0.6;
+
+  padding: 0 10px 0 10px;
+  position: relative;
+  top:4px
 }
 
 #center {
