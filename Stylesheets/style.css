@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+ul, li{
+	display: inline;
+}
+
 .navbar {
   position: absolute;
   top:0;
@@ -40,12 +44,12 @@ a {
   opacity: 1;
 }
 
-ul {
+.navmenu ul {
   position: relative;
   right:12px;
 }
 
-ul, li, #navicon{
+#navicon{
 	display: inline;
 }
 
@@ -64,7 +68,7 @@ li:hover{
 
 #center {
   text-align: center;
-  margin-top: 167px;
+  margin-top: 190px;
 }
 
 #center img{
@@ -118,4 +122,35 @@ li:hover{
 
 #button_lucky {
   margin-left: 5px;
+}
+
+.footer {
+  height: 40px; width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  background: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+}
+
+.footer div {
+  display: inline;
+}
+
+#leftfooter {
+  float:left;
+  margin: 11px 0 10px 18px;
+
+}
+
+#rightfooter {
+  float: right;
+  margin: 11px 18px 10px 0;
+}
+
+.footer li{
+  font-size: 12.5px;
+  font-family: Helvetica;
+  color: #666666;
+  margin: 13px;
 }
